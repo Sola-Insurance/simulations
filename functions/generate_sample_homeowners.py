@@ -9,7 +9,9 @@ from turfpy.transformation import circle
 
 db = get_database()
 
-states = ['AL', 'AR', 'GA', 'IA', 'IL', 'IN', 'KS', 'KY', 'MO', 'MS', 'NE', 'OH', 'OK', 'TN', 'TX']
+states = ['OK', 'TN', 'TX']
+
+other = ['AL', 'AR', 'GA', 'IA', 'IL', 'IN', 'KS', 'KY', 'MO', 'MS', 'NE', 'OH', ]
 
 limit_options = [
     2000,
@@ -28,17 +30,16 @@ limit_options = [
     15000
 ]
 
-sample_houses = db["sample houses"]
+sample_houses = db["sample houses random"]
 
 total_agg_limit = 200000000
-state_agg_limit = 80000000
+state_agg_limit = 200000000
 county_agg_limit = 30000000
 zip_agg_limit = 5000000
 
 
-def generate_homeowners(num_homeowners):
+def generate_homeowners(num_homeowners, curr_state):
     agencies = 0
-    sample_houses.delete_many({})
     sample_homes = []
     total = 0
     total_agg = 0
@@ -48,9 +49,7 @@ def generate_homeowners(num_homeowners):
     while total < num_homeowners:
 
         agencies += 1
-        print("Curr Total", total)
-
-        curr_state = random.choice(states)
+        print("Curr Total", total, curr_state)
 
         potential_locations_file = open(f'../files/state_locations/{curr_state}_points.json')
         potential_locations = json.load(potential_locations_file)['features']
@@ -124,4 +123,5 @@ def generate_homeowners(num_homeowners):
 
 
 if __name__ == '__main__':
-    generate_homeowners(25000)
+    for state in states:
+        generate_homeowners(15000, state)

@@ -23,3 +23,7 @@ files/tornado_collections/tornado_tracks.json
 files/test_dump.json
 functions/connect_to_db.py
 functions/connect_to_db.py
+files/output/exposures.csv
+files/output/losses.csv
+files/output/nlr.csv
+files/output/premium.csv
