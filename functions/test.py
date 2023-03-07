@@ -1,94 +1,20 @@
-EF0 - illinois
-EF0 - indiana
-EF0 - iowa
-EF0 - kansas
-EF0 - kentucky
-EF0 - louisiana
-EF0 - mississippi
-EF0 - missouri
-EF0 - nebraska
-EF0 - ohio
-EF0 - pennsylvania
-EF0 - tennessee
-EF0 - texas
-EF0 - wisconsin
-EF0 - florida
-EF0 - georgia
-EF0 - arkansas
-EF0 - alabama
-EF0 - oklahoma
-EF1 - illinois
-EF1 - indiana
-EF1 - iowa
-EF1 - kansas
-EF1 - kentucky
-EF1 - louisiana
-EF1 - mississippi
-EF1 - missouri
-EF1 - nebraska
-EF1 - ohio
-EF1 - pennsylvania
-EF1 - tennessee
-EF1 - texas
-EF1 - wisconsin
-EF1 - florida
-EF1 - georgia
-EF1 - arkansas
-EF1 - alabama
-EF1 - oklahoma
-EF2 - illinois
-EF2 - indiana
-EF2 - iowa
-EF2 - kansas
-EF2 - kentucky
-EF2 - louisiana
-EF2 - mississippi
-EF2 - missouri
-EF2 - nebraska
-EF2 - ohio
-EF2 - pennsylvania
-EF2 - tennessee
-EF2 - texas
-EF2 - wisconsin
-EF2 - florida
-EF2 - georgia
-EF2 - arkansas
-EF2 - alabama
-EF2 - oklahoma
-EF3 - illinois
-EF3 - indiana
-EF3 - iowa
-EF3 - kansas
-EF3 - kentucky
-EF3 - louisiana
-EF3 - mississippi
-EF3 - missouri
-EF3 - nebraska
-EF3 - ohio
-EF3 - pennsylvania
-EF3 - tennessee
-EF3 - texas
-EF3 - wisconsin
-EF3 - florida
-EF3 - georgia
-EF3 - arkansas
-EF3 - alabama
-EF3 - oklahoma
-EF4 - illinois
-EF4 - indiana
-EF4 - iowa
-EF4 - kansas
-EF4 - kentucky
-EF4 - louisiana
-EF4 - mississippi
-EF4 - missouri
-EF4 - nebraska
-EF4 - ohio
-EF4 - tennessee
-EF4 - texas
-EF4 - georgia
-EF4 - arkansas
-EF4 - alabama
-EF5 - mississippi
-EF5 - georgia
-EF5 - alabama
+0.0
+0.0
+0.0024
+0.0024
+0.0048
+0.0049
+0.0073
+0.0074
+0.0097
+0.0121
+0.0134
+0.0157
+0.0173
+0.0206
+0.0242
+0.0268
+0.0321
+0.0392
+0.0532
+0.3629

@@ -29,7 +29,7 @@ for sample_house in sample_houses:
 # print("Counties", county_dict)
 # print("Zips", zip_dict)
 
-headers = ["Total"]
+headers = ["SimID", "Total"]
 
 for state in state_dict:
     headers.append(state)
@@ -41,6 +41,18 @@ for zip_code in zip_dict:
     headers.append(zip_code)
 
 with open('../files/output/exposures.csv', 'a') as f:
+    writer = csv.writer(f)
+    writer.writerow(headers)
+
+with open('../files/output/losses.csv', 'a') as f:
+    writer = csv.writer(f)
+    writer.writerow(headers)
+
+with open('../files/output/premium.csv', 'a') as f:
+    writer = csv.writer(f)
+    writer.writerow(headers)
+
+with open('../files/output/nlr.csv', 'a') as f:
     writer = csv.writer(f)
     writer.writerow(headers)
 
